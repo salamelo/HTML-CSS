@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="unique6">
+    <p class="revendication">Pour apporter des suggestions et/ou des revendications,veuillez remplir ce formulaire svp:</p>
+    <form class="formulaire">
+        <label for="prenom" >Prénom*</label>
+        <input type="text" name="prenom" required>
+        <label for="nom">Nom*</label>
+        <input type="text" name="nom" required>
+        <label for="date">Date de naissance*</label>
+        <input type="date" name="date" required>
+        <label for="genre" >Genre*</label>
+        <input type="radio" name="genre" required class="genre">M
+        <input type="radio" name="genre" required class="genre">F
+        <label for="suggestion">Suggestions ou Revendications*</label>
+        <textarea name="suggestion" id="textarea" cols="25" rows="4" required placeholder="Veuillez nous faire part de vos suggestions et/ou revendications svp"></textarea>
+         <label for="pays">Pays</label>
+         <select name="pays" id="" required>
+             <option value="1">Mali</option>
+             <option value="1">Mauritanie</option>
+             <option value="1">Burkina Faso</option>
+             <option value="1" selected>Senegal</option>
+         </select>
+         <label for="email">Email*</label>
+         <input type="email" name="email" required>
+         <label for="confirmation">Confirmer votre Email*</label>
+         <input type="email" name="confirmation"required>
+         <label for="mot de pass">Mot de pass*</label>
+         <input type="password" name="mot de pass" required>
+         <label for="corfirmation pass">Confirmer votre mot de pass*</label>
+         <input type="password"required>
+         <label for="soumission"></label>
+         <input type="submit" name="soumission" value="Envoyer">
+    </form>
+    <footer class="piedpage"><a href="index.html"><h2>RETOURNER A L'ACCUEIL</h2</a></footer></body>
+</body>
+</html>
