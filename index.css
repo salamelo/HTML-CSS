@@ -1,0 +1,178 @@
+h1{
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 0px;
+}
+.titre{
+    background-color: aliceblue;
+    height: 100px;
+}
+.entete li{
+    display: inline-block;
+    width: 175px;
+    border-style: solid;
+    border-radius:  15px;
+    background-color: beige;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.paragraphe{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body[class="unique1"] {
+    background-color: deepskyblue
+}
+body[class="unique2"]{
+    background-color: darkblue;
+}
+body[class="unique3"]{
+    background-color: bisque;
+}
+body[class="unique4"]{
+    background-color:darkslateblue;
+}
+body[class="unique5"]{
+    background-color: darkturquoise;
+}
+a{
+    color: black;
+}
+.image1a{
+    height: 400px;
+    width:500px;
+    margin-top: 40px;
+}
+.image1b{
+    height: 400px;
+    width:500px;
+    margin-top: 30px;
+    margin-left: 630px;
+}
+.image-multi { 
+    height: 400px;
+    width:400px;
+    margin-left: 420px;
+    margin-top: 70px;
+}
+.image-multi2 {
+    height: 450px;
+    width: 80%;
+    margin-left: 125px;
+}
+#video1{
+    height: 480px;
+    width:470px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+#video2{
+    height: 480px;
+    width:370px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.piedpage{
+    height: 40px;
+    background-color: aliceblue;
+    text-align: right;
+}
+h2{
+    color: red;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+h2[class="seconde"]{
+    margin-left:800px ;
+    margin-top: 10px;
+    font-size: x-large;
+    margin-bottom: 10px;
+text-decoration: underline;
+}
+.text-merco{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.text-maldives{
+    text-align: center;
+    color:brown;
+    margin-top: 30px;
+
+}
+.text-parc{
+    text-align: center;
+    color: bisque;
+    margin-top: 30px;
+
+}
+.text-dubai{
+    text-align: center;
+    color: maroon;
+    margin-top: 30px;
+
+}
+h1[class="titre-merco"]{
+    color: white;
+}
+h1[class="titre-maldives"]{
+    color: brown;
+}
+h1[class="titre-parc"]{
+    color: beige
+}
+h1[class="titre-dubai"]{
+    color: crimson;
+}
+.entete li:hover{
+    background-color:red;
+}
+label{
+    display:block;
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+form{
+width: 400px;
+margin: auto;
+background-color: bisque;
+padding: 20px;
+}
+input,textarea,select,option{
+    background-color: FFF3F3;
+}
+input,textarea,select{
+    padding: 3px;
+    border: 1px ;
+    width: 200px;
+    border-radius: 5px;
+}
+input[type="submit"]
+{
+    width: 100px;
+    margin-left: 50px;
+    box-shadow: 1px 1px #D83F3D;
+    cursor: pointer;
+}
+:required{
+    border-style: solid; border-color:red;
+   }
+body[class="unique6"]{
+    background-color: snow;
+    height: 400px;
+}
+input[class="genre"] {
+    width: 15px;
+}
+.revendication{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: red;
+    font-size: x-large;
+}
